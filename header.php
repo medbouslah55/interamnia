@@ -443,7 +443,7 @@ $total=0;
                                     </div>
                                     <div class="header__account">
                                         <?php if(isset($_SESSION['USER_LOGIN'])){ ?>
-                                            <a href="logout.php"><?php echo $_SESSION["USER_NAME"]; ?>/logout<i class="icon-user icons" style="color:#f27437;"></i></a>';
+                                            <a href="logout.php"><?php echo $_SESSION["USER_FIRST_NAME"] ?>/logout<i class="icon-user icons" style="color:#f27437;"></i></a>
                                         <?php }else{
 											echo '<a href="login.php"><i class="icon-user icons" style="color:#f27437;"></i></a>';
 										}

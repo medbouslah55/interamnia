@@ -1,0 +1,16 @@
+<?php
+require('connection.inc.php');
+require('functions.inc.php');
+unset($_SESSION['USER_LOGIN']);
+unset($_SESSION['USER_ID']);
+unset($_SESSION['USER_FIRST_NAME']);
+unset($_SESSION['USER_LAST_NAME']);
+unset($_SESSION['USER_ADDRESS']);
+unset($_SESSION['USER_APARTEMENT']);
+unset($_SESSION['USER_COUNTRY']);
+unset($_SESSION['USER_CITY']);
+unset($_SESSION['USER_ZIP']);
+unset($_SESSION['USER_PHONE']);
+header('location:index.php');
+die();
+?>
